@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PersonalInfoDataBase.jnlp">
+  <information>
+    <title>PersonalInfoDataBase</title>
+    <vendor>salma</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PersonalInfoDataBase.jar" size="8737" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.13.jar" size="2132635" download="eager" />
+    <jar href="lib\ojdbc6.jar" size="2739670" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PersonalInfoDataBase" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="personalinfodatabase.PersonalInfoDataBase"  name="PersonalInfoDataBase" />
+  <update check="always"/>
+</jnlp>
